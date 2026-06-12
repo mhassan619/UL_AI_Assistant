@@ -2,3 +2,4 @@ flask
 langchain-core
 langchain-groq
 requests
+gunicorn

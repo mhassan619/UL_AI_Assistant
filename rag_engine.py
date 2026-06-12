@@ -7,11 +7,11 @@ from langchain_core.output_parsers import StrOutputParser
 class RAGEngine:
     def __init__(self):
         # 1. Apni Groq API Key yahan lagayein
-        self.groq_api_key = "YOUR-API-KEY_HERE"
+        self.groq_api_key = os.environ.get("GROQ_API_KEY")
         self.data_path = os.path.join("data", "university_data.txt")
         
-        # Warning ko khatam karne k liye environment variable set karein
-        os.environ["GROQ_API_KEY"] = self.groq_api_key
+        if self.groq_api_key:# Warning ko khatam karne k liye environment variable set karein
+            os.environ["GROQ_API_KEY"] = self.groq_api_key
         
         # 2. Initialize Super-Fast Cloud Groq Model (Llama 3.1 8B)
         self.llm = ChatGroq(

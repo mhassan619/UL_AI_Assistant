@@ -5,7 +5,7 @@
   Location: Hafizabad Road, Layyah, Punjab.
   Faculties Located Here:
   1. Faculty of Computing and Engineering:
-     - Departments: Department of Computer Science, Department of Information Technology, Department of Software Engineering, Department of Artificial Intelligence & Data Science.
+     - Departments: Department of Computer Science, Department of Information Technology,Department of Artificial Intelligence & Data Science.
      - Active Degree Programs: BS Computer Science (BSCS), BS Information Technology (BSIT), BS Artificial Intelligence (BSAI), BS Data Science (BSDS), Bachelor of Business Administration in IT (BBA-IT).
   2. Faculty of Veterinary and Animal Sciences:
      - Departments: Department of Microbiology, Department of Biotechnology, Department of Poultry Sciences.
